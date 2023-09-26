@@ -4,17 +4,17 @@ author: "This is a PDF of an online report. Click [here](https://northwest-syria
   to access it"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  word_document:
-    toc: yes
-    toc_depth: '4'
-  html_document:
-    toc: yes
-    toc_depth: '4'
-    df_print: paged
   pdf_document:
     toc: yes
     number_sections: no
     toc_depth: 4
+  html_document:
+    toc: yes
+    toc_depth: '4'
+    df_print: paged
+  word_document:
+    toc: yes
+    toc_depth: '4'
 always_allow_html: yes
 urlcolor: blue
 linkcolor: red
@@ -663,7 +663,7 @@ ggsave("./img/mpc_by_sub_district.png", dpi = 300, height = 8.27, width = 11.69,
 
 ### 3.2 Planned activities 
 
-Whilst it is heartening to see new sub-districts, the majority of planned allocations have been accorded to areas that have already received relatively high levels of support.  
+We find it encouraging that new sub-districts are being included in the planned allocations, although it's noteworthy that some of the planned allocation is still being assigned to areas that have already benefited from relatively high levels of support. 
 
 <br> 
 
